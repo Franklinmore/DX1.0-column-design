@@ -80,6 +80,7 @@ margin-bottom: 20px;
 }
 .secondsection-leftdiv h4{
     margin: 20px;
+    text-align: center;
 }
 
 .secondsection-leftdiv p{
@@ -91,3 +92,76 @@ margin-bottom: 20px;
     margin-left: 20px;
 }
 /* ===== Second section ends here===== */
+
+/* ===== third section starts here===== */
+.thirdsection{
+    /* border: 3px solid tomato; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    align-items: center;
+    padding: 50px 0;
+}
+
+.thirdsection-leftdiv,
+.thirdsection-rightdiv{
+    height: 460px;
+    width: 340px;
+   
+}
+.thirdsection-leftdiv{
+    /* border: 3px solid black; */
+    background: url("./images/image3.jpg");
+    background-size: cover;
+
+}
+/* .thirdsection-leftdiv img{
+    object-fit: cover ;
+    object-position: bottom left;
+} */
+.thirdsection-rightdiv{
+   /* border: 3px solid purple;    */
+   background: var(--main-color) ;
+   padding: 40px 25px ;
+   
+}
+.thirdsection-rightdiv p{
+    margin-bottom: 25px;
+}
+/* ===== third section ends here===== */
+
+
+/* ===== footer section starts here===== */
+
+footer{
+    background: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    color: var(--white-color);
+}
+.footericons-container{
+    /* border: 3px solid black; */
+    font-size: 22px;
+}
+.footer-icon{
+    margin: 0 5px;
+}
+a{
+    color: var(--white-color);
+    text-decoration: none;
+
+}
+/* ===== footer section ends here===== */
+
+
+/* ===== safety measuure starts here===== */
+.firstsection,.secondsection,.thirdsection,footer{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+/* ===== safety measure ends here===== */

@@ -26,14 +26,39 @@ font-size: 16px;
     width: 200px;
 }
 
-/* ===== First section starts here===== */
+/* ===== First section ends here===== */
 
 /* ===== second section starts here===== */
 .secondsection-rightdiv{
     margin-left: o;
     margin-top: 30px;
  }
-/* ===== First section starts here===== */
+
+
+/* ===== second section ends here===== */
+
+/* ===== third section starts here===== */
+.thirdsection{
+    flex-direction: column-reverse;
+    background: var(--gray-color);
+}
+
+/* ===== third section ends here===== */
+
+
+/* ===== third section ends here===== */
+footer{
+   flex-direction: column; 
+   padding: 10px 30px;
+   text-align: center;
+
+}
+.footericons-container{
+    margin: 10px 0;
+}
+
+/* ===== third section ends here===== */
 
 
 }
+
